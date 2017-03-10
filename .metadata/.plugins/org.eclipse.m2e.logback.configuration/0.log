@@ -1,0 +1,11 @@
+2017-03-10 17:43:45,446 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: enh:com.testautomation:0.0.1-SNAPSHOT @ C:\Users\EIN0047\git\gitrepo\pom.xml.
+2017-03-10 17:43:45,446 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: enh:com.testautomation:0.0.1-SNAPSHOT @ C:\Users\EIN0047\git\gitrepo\pom.xml.
+2017-03-10 17:43:49,853 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 17:43:49,862 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-03-10 17:43:51,827 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 17:43:51,828 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-03-10 17:43:56,582 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: enh:com.testautomation:0.0.1-SNAPSHOT @ C:\Users\EIN0047\git\gitrepo\pom.xml.
+2017-03-10 17:44:00,505 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 17:44:00,512 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-03-10 17:44:03,482 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 17:44:03,484 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
