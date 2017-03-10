@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Cart page" duration-ms="123967" started-at="2017-03-08T11:40:59Z" finished-at="2017-03-08T11:43:03Z">
+  <suite name="Cart page" duration-ms="41935" started-at="2017-03-10T13:27:06Z" finished-at="2017-03-10T13:27:48Z">
     <groups>
       <group name="Cart">
-        <method signature="IGP_TC_090.test()[pri:0, instance:enh.web.tests.IGP_TC_090@77eca502]" name="test" class="enh.web.tests.IGP_TC_090"/>
-        <method signature="IGP_TC_091.test()[pri:0, instance:enh.web.tests.IGP_TC_091@3246fb96]" name="test" class="enh.web.tests.IGP_TC_091"/>
+        <method signature="IGP_TC_090.test()[pri:0, instance:enh.web.tests.IGP_TC_090@7690781]" name="test" class="enh.web.tests.IGP_TC_090"/>
       </group> <!-- Cart -->
     </groups>
-    <test name="Cart page-Tests" duration-ms="123967" started-at="2017-03-08T11:40:59Z" finished-at="2017-03-08T11:43:03Z">
-      <class name="enh.web.tests.IGP_TC_091">
-        <test-method status="PASS" signature="test()[pri:0, instance:enh.web.tests.IGP_TC_091@3246fb96]" name="test" duration-ms="72908" started-at="2017-03-08T17:11:49Z" description="Change country: Ensure that the product will be delivered to the selected country in cart page." finished-at="2017-03-08T17:13:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- enh.web.tests.IGP_TC_091 -->
+    <test name="Cart page-Tests" duration-ms="41935" started-at="2017-03-10T13:27:06Z" finished-at="2017-03-10T13:27:48Z">
       <class name="enh.web.tests.IGP_TC_090">
-        <test-method status="PASS" signature="test()[pri:0, instance:enh.web.tests.IGP_TC_090@77eca502]" name="test" duration-ms="37611" started-at="2017-03-08T17:11:05Z" description="Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on &#039;Buy now&#039;." finished-at="2017-03-08T17:11:43Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:enh.web.tests.IGP_TC_090@7690781]" name="test" duration-ms="34701" started-at="2017-03-10T18:57:10Z" description="Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on &#039;Buy now&#039;." finished-at="2017-03-10T18:57:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- enh.web.tests.IGP_TC_090 -->
     </test> <!-- Cart page-Tests -->
   </suite> <!-- Cart page -->
+  <suite name="Order Detail Page" duration-ms="0" started-at="2017-03-10T13:27:48Z" finished-at="2017-03-10T13:27:48Z">
+    <groups>
+    </groups>
+    <test name="Order Detail Page-Tests" duration-ms="0" started-at="2017-03-10T13:27:48Z" finished-at="2017-03-10T13:27:48Z">
+    </test> <!-- Order Detail Page-Tests -->
+  </suite> <!-- Order Detail Page -->
 </testng-results>

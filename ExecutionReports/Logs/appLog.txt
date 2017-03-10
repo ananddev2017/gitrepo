@@ -1536,3 +1536,58 @@ Session ID: edd511b6ea72caa46f70bba32f15dcea
 2017-03-08 17:13:04 INFO  - Cart page suite finished at Wed Mar 08 17:13:04 IST 2017
 2017-03-08 17:13:04 INFO  - Test process has ended
 2017-03-08 17:13:04 INFO  - History File created successfully
+2017-03-10 18:57:05 INFO  - 
+
++============================================================================================================================+
+2017-03-10 18:57:05 INFO  - Cart page suite started at Fri Mar 10 18:57:05 IST 2017
+2017-03-10 18:57:05 INFO  - Suite Browser: Chrome
+2017-03-10 18:57:06 INFO  - +=============Database started=============+
+2017-03-10 18:57:06 INFO  - Database driver name: SQLiteJDBC
+2017-03-10 18:57:06 INFO  - Product name SQLite, Version 3.8.11
+2017-03-10 18:57:06 INFO  - +==========================================+
+
+2017-03-10 18:57:06 INFO  - Test is started with browser: Chrome
+2017-03-10 18:57:10 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-10 18:57:10 INFO  - Test Started: IGP_TC_090
+2017-03-10 18:57:10 INFO  - Test description: Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on 'Buy now'.
+2017-03-10 18:57:10 INFO  - Open home page
+2017-03-10 18:57:10 INFO  - Navigate to: https://www.igp.com/
+2017-03-10 18:57:16 INFO  - Open home page
+2017-03-10 18:57:16 INFO  - Add product into cart.
+2017-03-10 18:57:16 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-10 18:57:16 INFO  - Click:FLOWER_AND_CAKE
+2017-03-10 18:57:16 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-10 18:57:24 INFO  - Select Item
+2017-03-10 18:57:24 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-10 18:57:24 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-10 18:57:24 INFO  - Input pincode
+2017-03-10 18:57:24 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-10 18:57:27 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-03-10 18:57:28 INFO  - Click: ADD TO CART
+2017-03-10 18:57:28 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-03-10 18:57:29 INFO  - Click cart button
+2017-03-10 18:57:31 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-03-10 18:57:31 INFO  - Add product into cart.
+2017-03-10 18:57:31 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-03-10 18:57:33 INFO  - Buy Now
+2017-03-10 18:57:33 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-10 18:57:34 INFO  - The page should navigate to order details page
+2017-03-10 18:57:34 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-10 18:57:36 INFO  - The page should navigate to order details page
+2017-03-10 18:57:36 INFO  - Verify pin update
+2017-03-10 18:57:36 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-03-10 18:57:38 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-03-10 18:57:38 INFO  - Input Text: 143505 - By.xpath: //input[@id='pin-code']
+2017-03-10 18:57:40 INFO  - Click: By.xpath: (//button[text()='Apply'])[position()=2]
+2017-03-10 18:57:42 INFO  - Verify Text Contains: 143505 - By.xpath: //*[@class='c-item-delivery v-center']//span[@class='number']
+2017-03-10 18:57:42 INFO  - Verified text expected "143505" actual "143505" 
+2017-03-10 18:57:42 INFO  - Verify pin update
+2017-03-10 18:57:45 INFO  - Total Time taken in(seconds):34
+2017-03-10 18:57:46 INFO  - TestResults
+2017-03-10 18:57:47 INFO  - **********TEST FINISHED-> IGP_TC_090-PASS**********
+2017-03-10 18:57:47 INFO  - Test has ended closing browser: Chrome
+2017-03-10 18:57:47 INFO  - Closing Browsers
+2017-03-10 18:57:48 INFO  - Cart page suite finished at Fri Mar 10 18:57:48 IST 2017
+2017-03-10 18:57:48 INFO  - Test process has ended
+2017-03-10 18:57:48 INFO  - History File created successfully
