@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Cart_page">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cart_page" title="enh.web.tests.IGP_TC_090" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Cart_page" title="enh.web.tests.IGP_TC_095" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cart_page" title="enh.web.tests.IGP_TC_098" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Cart_page -->
@@ -185,7 +190,7 @@
           <div class="suite-Cart_page-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">enh.web.tests.IGP_TC_090</span>
+              <span class="class-name">enh.web.tests.IGP_TC_095</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -194,7 +199,24 @@
                   </a> <!-- test -->
                   <span class="method-name">test</span>
                   <em>
-(Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on 'Buy now'.)                  </em>
+(Remove from cart.: Ensure that the user able to remove the item from the cart.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cart_page-class-passed -->
+          <div class="suite-Cart_page-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">enh.web.tests.IGP_TC_098</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <em>
+(Cart is Empty: Ensure that user 'Cart Is Empty ' and 'Continue Shopping' message is displaying when there are no items in the cart.)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,7 +235,8 @@
   &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
   &lt;test name=&quot;Cart page-Tests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;enh.web.tests.IGP_TC_090&quot;/&gt;
+      &lt;class name=&quot;enh.web.tests.IGP_TC_095&quot;/&gt;
+      &lt;class name=&quot;enh.web.tests.IGP_TC_098&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Cart page-Tests --&gt;
 &lt;/suite&gt; &lt;!-- Cart page --&gt;
@@ -242,7 +265,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Cart page-Tests (1 class)</span>
+                <span class="test-name">Cart page-Tests (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -295,16 +318,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'enh.web.tests.IGP_TC_090')
-data.setCell(0, 3, 34701);
+data.setCell(0, 2, 'enh.web.tests.IGP_TC_098')
+data.setCell(0, 3, 29198);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'enh.web.tests.IGP_TC_095')
+data.setCell(1, 3, 21278);
 window.suiteTableData['Cart_page']= { tableData: data, tableDiv: 'times-div-Cart_page'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-Cart_page">
               </div> <!-- times-div-Cart_page -->
             </div> <!-- times-div -->
@@ -368,10 +395,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">enh.web.tests.IGP_TC_090</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">enh.web.tests.IGP_TC_095</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">enh.web.tests.IGP_TC_098</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">27172 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
